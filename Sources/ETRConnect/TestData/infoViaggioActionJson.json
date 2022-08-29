@@ -1,0 +1,275 @@
+{
+    "isGpsValid": false,
+    "ultimaStazione": "Firenze SMN",
+    "eta": "11.46",
+    "speed": "269",
+    "isOdoValid": true,
+    "tracknum": "9520",
+    "statoPercorso": [
+        {
+            "description": "NAPOLI CENTRALE",
+            "id": 0,
+            "orario": "07:45",
+            "passed": true,
+            "percent": 100,
+            "stationState": 2
+        },
+        {
+            "description": "NA Afragola",
+            "id": 1,
+            "orario": "07:59",
+            "passed": true,
+            "percent": 100,
+            "stationState": 2
+        },
+        {
+            "description": "ROMA TERMINI",
+            "id": 2,
+            "orario": "09:00",
+            "passed": true,
+            "percent": 100,
+            "stationState": 2
+        },
+        {
+            "description": "Firenze SMN",
+            "id": 3,
+            "orario": "10:46",
+            "passed": true,
+            "percent": 52,
+            "stationState": 2
+        },
+        {
+            "description": "BOLOGNA AV",
+            "id": 4,
+            "orario": "11:33",
+            "passed": false,
+            "percent": 0,
+            "stationState": 0
+        },
+        {
+            "description": "REGGIO EMILIA AV",
+            "id": 5,
+            "orario": "11:58",
+            "passed": false,
+            "percent": 0,
+            "stationState": 0
+        },
+        {
+            "description": "MILANO ROGOREDO",
+            "id": 6,
+            "orario": "12:38",
+            "passed": false,
+            "percent": 0,
+            "stationState": 0
+        },
+        {
+            "description": "MILANO CENTRALE",
+            "id": 7,
+            "orario": "12:50",
+            "passed": false,
+            "percent": 0,
+            "stationState": 0
+        }
+    ],
+    "m53": {
+        "m53elements": [
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "REGIO_FAST",
+                "destinazione": "ANCONA",
+                "numTreno": "3915",
+                "orario": "11:34",
+                "ritardo": "6m"
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "F_ROSSA",
+                "destinazione": "LECCE",
+                "numTreno": "9805",
+                "orario": "11:45",
+                "ritardo": null
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "REGIO_FAST",
+                "destinazione": "MILANO CENTRALE",
+                "numTreno": "2470",
+                "orario": "11:50",
+                "ritardo": null
+            },
+            {
+                "binario": "8",
+                "binarioReale": null,
+                "categoria": "EUROCITY",
+                "destinazione": "BRENNERO",
+                "numTreno": "84",
+                "orario": "11:52",
+                "ritardo": null
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "INTERCITY",
+                "destinazione": "LECCE",
+                "numTreno": "607",
+                "orario": "12:00",
+                "ritardo": null
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "REGIONALE",
+                "destinazione": "PORRETTA  TERME",
+                "numTreno": "17755",
+                "orario": "12:04",
+                "ritardo": null
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "REGIO_FAST",
+                "destinazione": "BRENNERO",
+                "numTreno": "3842",
+                "orario": "12:05",
+                "ritardo": null
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "REGIONALE",
+                "destinazione": "RIMINI",
+                "numTreno": "17551",
+                "orario": "12:06",
+                "ritardo": null
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "REGIONALE",
+                "destinazione": "PRATO CENTRALE",
+                "numTreno": "17825",
+                "orario": "12:08",
+                "ritardo": null
+            },
+            {
+                "binario": "9",
+                "binarioReale": null,
+                "categoria": "REGIO_FAST",
+                "destinazione": "VENEZIA S.LUCIA",
+                "numTreno": "3974",
+                "orario": "12:12",
+                "ritardo": null
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "F_ROSSA",
+                "destinazione": "BERGAMO",
+                "numTreno": "8508",
+                "orario": "12:16",
+                "ritardo": "6m"
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "REGIONALE",
+                "destinazione": "RIMINI",
+                "numTreno": "17499",
+                "orario": "12:18",
+                "ritardo": null
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "REGIONALE",
+                "destinazione": "VIGNOLA",
+                "numTreno": "90017",
+                "orario": "12:18",
+                "ritardo": null
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "REGIONALE",
+                "destinazione": "FERRARA",
+                "numTreno": "17954",
+                "orario": "12:25",
+                "ritardo": null
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "REGIO_FAST",
+                "destinazione": "PIACENZA",
+                "numTreno": "3912",
+                "orario": "12:33",
+                "ritardo": null
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "REGIO_FAST",
+                "destinazione": "ANCONA",
+                "numTreno": "3917",
+                "orario": "12:34",
+                "ritardo": null
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "REGIONALE",
+                "destinazione": "MARZABOTTO",
+                "numTreno": "17757",
+                "orario": "12:35",
+                "ritardo": null
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "REGIONALE",
+                "destinazione": "POGGIO RUSCO",
+                "numTreno": "17890",
+                "orario": "12:36",
+                "ritardo": null
+            },
+            {
+                "binario": "",
+                "binarioReale": null,
+                "categoria": "REGIONALE",
+                "destinazione": "IMOLA",
+                "numTreno": "17497",
+                "orario": "12:50",
+                "ritardo": null
+            }
+        ],
+        "m53Station": "BOLOGNA AV",
+        "dateSnapshot": "2022-08-29T11:19:36"
+    },
+    "categoria": "F_ROSSA",
+    "statename": "IL",
+    "onTimeInfo": "",
+    "prossimaStazione": "BOLOGNA AV",
+    "tracktitle": "Napoli Centrale &rarr; Milano Centrale",
+    "delay2": "Delay +13m",
+    "isM53Visible": true,
+    "trackline": {
+        "start": {
+            "staz": "Firenze Smn",
+            "orario": "10:46"
+        },
+        "trainprogress": 705,
+        "postreno": 26.234567901234566,
+        "mid": {
+            "staz": "Bologna Av",
+            "orario": "11:33"
+        },
+        "end": {
+            "staz": "Reggio Emilia Av",
+            "orario": "11:58"
+        }
+    },
+    "isTrackOnGPS": true
+}

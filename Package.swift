@@ -20,6 +20,9 @@ let package = Package(
         .library(
             name: "SNCFConnect",
             targets: ["SNCFConnect"]),
+        .library(
+            name: "ETRConnect",
+            targets: ["ETRConnect"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -44,6 +47,12 @@ let package = Package(
             ]),
         .target(
             name: "SNCFConnect",
+            dependencies: ["Moya", "TrainConnect"],
+            resources: [
+                .process("TestData/")
+            ]),
+        .target(
+            name: "ETRConnect",
             dependencies: ["Moya", "TrainConnect"],
             resources: [
                 .process("TestData/")

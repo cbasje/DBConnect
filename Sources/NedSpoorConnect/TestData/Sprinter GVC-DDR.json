@@ -1,0 +1,370 @@
+{
+    "currentStation": "n/a",
+    "nextStation": "RSW",
+    "splitCombineContent": "",
+    "displayArrivalTimes": true,
+    "displayTravelInformation": true,
+    "finalDestination": {
+        "code": "DDR",
+        "type": "5",
+        "latitude": "51.8072204589844",
+        "longitude": "4.66833353042603",
+        "languages": {
+            "nl": {
+                "shortName": "Dordrecht",
+                "middleName": "Dordrecht",
+                "longName": "Dordrecht"
+            }
+        },
+        "defaultLanguageCode": "nl"
+    },
+    "phase": 1,
+    "trip": {
+        "isInternationalTrip": false,
+        "trainTypeFull": "Sprinter",
+        "stops": [
+            {
+                "station": {
+                    "code": "GVC",
+                    "type": "6",
+                    "latitude": "52.0802764892578",
+                    "longitude": "4.32499980926514",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Den Haag C",
+                            "middleName": "Den Haag C.",
+                            "longName": "Den Haag Centraal"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "gvc",
+                "stationType": "r",
+                "platform": "1",
+                "platFormChanged": false,
+                "fromDateTime": "October, 18 2023 13:24:27 +0200",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "October, 18 2023 13:32:44 +0200",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "GV",
+                    "type": "5",
+                    "latitude": "52.0697212219238",
+                    "longitude": "4.32250022888184",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Dn Haag HS",
+                            "middleName": "Den Haag HS",
+                            "longName": "Den Haag HS"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "gv",
+                "stationType": "r",
+                "platform": "3",
+                "platFormChanged": false,
+                "arrivalDateTime": "October, 18 2023 13:27:13 +0200",
+                "fromDateTime": "October, 18 2023 13:29:13 +0200",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "October, 18 2023 13:32:44 +0200",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "GVMW",
+                    "type": "0",
+                    "latitude": "52.0538902282715",
+                    "longitude": "4.3086109161377",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Moerwijk",
+                            "middleName": "Moerwijk",
+                            "longName": "Den Haag Moerwijk"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "gvmw",
+                "stationType": "r",
+                "platform": "1",
+                "platFormChanged": false,
+                "arrivalDateTime": "October, 18 2023 13:32:00 +0200",
+                "fromDateTime": "October, 18 2023 13:32:00 +0200",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "October, 18 2023 13:32:44 +0200",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "RSW",
+                    "type": "0",
+                    "latitude": "52.039722442627",
+                    "longitude": "4.31916666030884",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Rijswijk",
+                            "middleName": "Rijswijk",
+                            "longName": "Rijswijk"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "rsw",
+                "stationType": "r",
+                "platform": "1",
+                "platFormChanged": false,
+                "arrivalDateTime": "October, 18 2023 13:35:00 +0200",
+                "fromDateTime": "October, 18 2023 13:35:00 +0200",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "October, 18 2023 13:32:44 +0200",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "DT",
+                    "type": "5",
+                    "latitude": "52.0066680908203",
+                    "longitude": "4.35638904571533",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Delft",
+                            "middleName": "Delft",
+                            "longName": "Delft"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "dt",
+                "stationType": "r",
+                "platform": "2",
+                "platFormChanged": false,
+                "arrivalDateTime": "October, 18 2023 13:39:00 +0200",
+                "fromDateTime": "October, 18 2023 13:39:00 +0200",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "October, 18 2023 13:32:44 +0200",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "DTCP",
+                    "type": "0",
+                    "latitude": "51.9908332824707",
+                    "longitude": "4.36472225189209",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Delft Camp",
+                            "middleName": "Delft Campus",
+                            "longName": "Delft Campus"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "dtcp",
+                "stationType": "r",
+                "platform": "2",
+                "platFormChanged": false,
+                "arrivalDateTime": "October, 18 2023 13:42:00 +0200",
+                "fromDateTime": "October, 18 2023 13:42:00 +0200",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "October, 18 2023 13:32:44 +0200",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "SDM",
+                    "type": "0",
+                    "latitude": "51.9212438128032",
+                    "longitude": "4.4089937210083",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Schiedam C",
+                            "middleName": "Schiedam C.",
+                            "longName": "Schiedam Centrum"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "sdm",
+                "stationType": "r",
+                "platform": "3",
+                "platFormChanged": false,
+                "arrivalDateTime": "October, 18 2023 13:48:00 +0200",
+                "fromDateTime": "October, 18 2023 13:52:00 +0200",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "October, 18 2023 13:32:44 +0200",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "RTD",
+                    "type": "6",
+                    "latitude": "51.9249992370605",
+                    "longitude": "4.46888875961304",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Rotterdm C",
+                            "middleName": "Rotterdam C.",
+                            "longName": "Rotterdam Centraal"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "rtd",
+                "stationType": "r",
+                "platform": "3",
+                "platFormChanged": false,
+                "arrivalDateTime": "October, 18 2023 13:56:00 +0200",
+                "fromDateTime": "October, 18 2023 14:01:00 +0200",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "October, 18 2023 13:32:44 +0200",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "RTZ",
+                    "type": "0",
+                    "latitude": "51.9044456481934",
+                    "longitude": "4.51027774810791",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Rotterdm Z",
+                            "middleName": "Rotterdam Zuid",
+                            "longName": "Rotterdam Zuid"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "rtz",
+                "stationType": "r",
+                "platform": "4",
+                "platFormChanged": false,
+                "arrivalDateTime": "October, 18 2023 14:05:00 +0200",
+                "fromDateTime": "October, 18 2023 14:05:00 +0200",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "October, 18 2023 13:32:44 +0200",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "RLB",
+                    "type": "0",
+                    "latitude": "51.8800010681152",
+                    "longitude": "4.53138875961304",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Lombardije",
+                            "middleName": "Lombardijen",
+                            "longName": "Rotterdam Lombardijen"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "rlb",
+                "stationType": "r",
+                "platform": "4",
+                "platFormChanged": false,
+                "arrivalDateTime": "October, 18 2023 14:08:00 +0200",
+                "fromDateTime": "October, 18 2023 14:10:00 +0200",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "October, 18 2023 13:32:44 +0200",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "BRD",
+                    "type": "0",
+                    "latitude": "51.8547210693359",
+                    "longitude": "4.5533332824707",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Barendrcht",
+                            "middleName": "Barendrecht",
+                            "longName": "Barendrecht"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "brd",
+                "stationType": "r",
+                "platform": "4",
+                "platFormChanged": false,
+                "arrivalDateTime": "October, 18 2023 14:13:00 +0200",
+                "fromDateTime": "October, 18 2023 14:13:00 +0200",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "October, 18 2023 13:32:44 +0200",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "ZWD",
+                    "type": "0",
+                    "latitude": "51.814998626709",
+                    "longitude": "4.64166688919067",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Zwijndrcht",
+                            "middleName": "Zwijndrecht",
+                            "longName": "Zwijndrecht"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "zwd",
+                "stationType": "r",
+                "platform": "4",
+                "platFormChanged": false,
+                "arrivalDateTime": "October, 18 2023 14:19:00 +0200",
+                "fromDateTime": "October, 18 2023 14:19:00 +0200",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "October, 18 2023 13:32:44 +0200",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "DDR",
+                    "type": "5",
+                    "latitude": "51.8072204589844",
+                    "longitude": "4.66833353042603",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Dordrecht",
+                            "middleName": "Dordrecht",
+                            "longName": "Dordrecht"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "ddr",
+                "stationType": "r",
+                "platform": "3a",
+                "platFormChanged": false,
+                "arrivalDateTime": "October, 18 2023 14:23:00 +0200",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "October, 18 2023 13:32:44 +0200",
+                "beanFactory": {}
+            }
+        ],
+        "tripLanguages": []
+    },
+    "transfer": [],
+    "disturbances": {
+        "ev": [],
+        "vtb": []
+    }
+}

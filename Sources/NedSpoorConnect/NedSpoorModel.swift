@@ -113,32 +113,32 @@ struct Stop: Codable, TrainStop {
     }
     
     public var scheduledArrival: Date? {
-        self.arrivalDateTime
+        self.arrivalDateTime?.addingTimeInterval(TimeInterval(self.arrivalDelayInt) * -60)
     }
     
     public var actualArrival: Date? {
-        self.scheduledArrival?.addingTimeInterval(TimeInterval(self.arrivalDelayInt) * -60)
+        self.arrivalDateTime
     }
     
     public var scheduledDeparture: Date? {
-        self.fromDateTime
+        self.fromDateTime?.addingTimeInterval(TimeInterval(self.fromDelayInt) * -60)
     }
     
     public var actualDeparture: Date? {
-        self.scheduledDeparture?.addingTimeInterval(TimeInterval(self.fromDelayInt) * -60)
-    }
-    
-    public var departureDelay: String {
-        if self.fromDelayInt != 0 {
-            return "+\(self.fromDelayInt)"
-        } else {
-            return ""
-        }
+        self.fromDateTime
     }
     
     public var arrivalDelay: String {
         if self.arrivalDelayInt != 0 {
             return "+\(self.arrivalDelayInt)"
+        } else {
+            return ""
+        }
+    }
+    
+    public var departureDelay: String {
+        if self.fromDelayInt != 0 {
+            return "+\(self.fromDelayInt)"
         } else {
             return ""
         }

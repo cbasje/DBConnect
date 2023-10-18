@@ -77,8 +77,14 @@ public class NedSpoorDataController: NSObject, TrainDataController {
         }
     }
     
-    public func loadTrainStatus(demoMode: Bool, completionHandler: @escaping (TrainConnect.TrainStatus?, Error?) -> ()) {
-        // FIXME: load actual data
-        completionHandler(nil, nil)
+    public func loadTrainStatus(demoMode: Bool, completionHandler: @escaping (TrainStatus?, Error?) -> ()) {
+        self.loadDetails(demoMode: demoMode, completionHandler: { (res, err) in
+            guard let trainId = res?.trip.trainTypeFull else {
+                completionHandler(nil, nil)
+                return
+            }
+        
+            completionHandler(NedSpoorConnect.Status(trainId: trainId), nil)
+        })
     }
 }

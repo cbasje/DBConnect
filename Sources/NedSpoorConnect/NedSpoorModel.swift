@@ -8,11 +8,6 @@
 import Foundation
 import TrainConnect
 import CoreLocation
-#if os(macOS)
-import AppKit
-#else
-import UIKit
-#endif
 
 // MARK: - TravelInfoResponse
 struct TravelInfoResponse: Codable {
@@ -31,7 +26,7 @@ struct TravelInfoResponse: Codable {
 //}
 
 // MARK: - Station
-struct Station: Codable,TrainStation {
+struct Station: Codable, TrainStation {
     let code, type: String
     let latitudeString, longitudeString: String
     let languages: Languages

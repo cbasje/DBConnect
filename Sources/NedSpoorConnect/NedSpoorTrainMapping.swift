@@ -79,7 +79,7 @@ public struct NedSpoorTrainType: TrainType {
         case .sprinter:
             return "sng"
         case .intercity:
-            return "virm"
+            return "virm-flow"
         }
     }
 }

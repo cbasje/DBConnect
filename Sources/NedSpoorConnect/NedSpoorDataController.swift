@@ -42,6 +42,7 @@ public class NedSpoorDataController: NSObject, TrainDataController {
             completionHandler($0?.trip, $1)
         })
     }
+    
     private func loadDetails(demoMode: Bool, completionHandler: @escaping (TravelInfoResponse?, Error?) -> ()){
         let provider = getProvider(demoMode: demoMode)
         provider.request(.travelInfo) { result in
